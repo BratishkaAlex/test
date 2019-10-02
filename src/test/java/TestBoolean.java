@@ -7,6 +7,7 @@ public class TestBoolean {
             System.out.println("isRemote");
         } else {
             System.out.println("Not isRemote");
+            System.out.println(System.getenv("isRemote"));
         }
     }
 }
